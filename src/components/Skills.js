@@ -25,7 +25,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="py-10  bg-sky-950">
+    <div className="py-10  bg-sky-950 lg:w-full w-[384px]">
       <div className="py-6">
         <div className="text-center">
           <h1 className="text-4xl font-semibold text-white">

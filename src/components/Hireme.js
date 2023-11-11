@@ -11,8 +11,8 @@ const Hireme = () => {
         <p className="text-lg text-gray-400 mt-2">Do you have any work ?</p>
       </div>
 
-      <div className="bg-gray-700 rounded-xl lg:w-[1000px] lg:min-h-[24rem]  mx-auto flex lg:flex-row flex-col-reverse relative p-10 mt-16">
-        <div className="lg:w-[540px] flex items-center">
+      <div className="bg-gray-700 rounded-xl lg:w-[1000px] lg:min-h-[24rem]  mx-auto flex lg:flex-row flex-col-reverse relative p-10 mt-16 w-full">
+        <div className="lg:w-[540px] h-[304px]  flex items-center">
           <div>
             <h1 className="text-2xl font-semibold text-white">
               Do you want any work from me?
@@ -30,7 +30,7 @@ const Hireme = () => {
         <img
           src={hireme}
           alt=""
-          className="absolute bottom-0  -right-3 lg:w-[435] lg:h-[512px] object-cover"
+          className="lg:absolute lg:mb-0 mb-10 bottom-0  -right-3 lg:w-[435] lg:h-[512px] object-cover"
         />
       </div>
     </div>

@@ -18,21 +18,25 @@ const Hero = () => {
           alt="There is no img here"
         />
       </div>
-      <div className="lg:ml-10 ">
-        <h1 className="lg:text-6xl text-5xl text-teal-500 font-semibold">
+      <div className="lg:ml-10 lg:text-left text-center ">
+        <h1 className="lg:text-6xl text-4xl text-teal-500 font-semibold">
           Hello!
         </h1>
-        <br />
-        <h2 className="text-5xl text-white font-semibold">I am Naimul Islum</h2>
-        <br />
-        <h3 className="text-3xl font-semibold text-emerald-600">
+
+        <h2 className="lg:text-5xl text-2xl text-white font-semibold  lg:mt-4 mt-3">
+          I am Naimul Islum
+        </h2>
+
+        <h3 className="lg:text-3xl text-xl font-semibold text-emerald-600 lg:mt-4 mt-3">
           Front-End-Developer
         </h3>
+
+        <button className="btn-primary font-semibold lg:mt-4 mt-3">
+          Contact Me
+        </button>
         <br />
-        <button className="btn-primary font-semibold">Contact Me</button>
         <br />
-        <br />
-        <div className="flex gap-4">
+        <div className="flex gap-4 lg:justify-start justify-center">
           <BsInstagram className="text-3xl text-gray-400 hover:text-white hover:cursor-pointer" />
           <SiFacebook className="text-3xl text-gray-400 hover:text-white hover:cursor-pointer" />
           <AiFillLinkedin className="text-3xl text-gray-400 hover:text-white hover:cursor-pointer" />

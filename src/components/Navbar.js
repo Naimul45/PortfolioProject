@@ -12,12 +12,12 @@ const Navbar = () => {
     <nav className="h-[60px] fixed left-0 right-0">
       <div className="flex justify-between items-center h-[60px]">
         <div>
-          <h3 className="text-white text-3xl  lg:mx-10 mx-6 font-semibold ">
+          <h3 className="text-white lg:text-3xl text-2xl  lg:mx-10 mx-6 font-semibold ">
             NA<span className="text-green-500">IM</span>UL
           </h3>
         </div>
 
-        <div className="flex bg-white h-full rounded-bl-full w-[657px] pl-[40px]">
+        <div className="lg:flex bg-white h-full rounded-bl-full w-[657px] pl-[40px]  hidden">
           {navListItem?.map((navli) => (
             <ul className="px-6 h-full flex items-center hover:text-green-700 hover:cursor-pointer">
               <a href={navli.link}>
